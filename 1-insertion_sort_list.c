@@ -7,7 +7,7 @@
  */
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *head = *list, *tmp, *l;
+	listint_t *head = *list, *tmp;
 
 	/* Go Right */
 	while (head->next)
