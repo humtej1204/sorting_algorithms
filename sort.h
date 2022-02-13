@@ -29,10 +29,7 @@ void quick_sort(int *array, size_t size);
 void change_pos(listint_t *p, listint_t *t);
 int get_size(listint_t **list);
 
-void chng_pos_array(int *p1, int *p2);
-
-/*Functions (3-quicksort)*/
-void haru(int *array, int *start, int *end);
-int *partition(int *array, int *start, int *end);
+void rec_func(int *array, int start, int end, size_t size);
+size_t lomuto_partition(int *array, int start, int end, size_t size);
 
 #endif
