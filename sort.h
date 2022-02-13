@@ -1,7 +1,6 @@
 #ifndef HEADER
 #define HEADER
 /* Libraries */
-#include <stdlib.h>
 #include <stdio.h>
 
 /* Structures */
