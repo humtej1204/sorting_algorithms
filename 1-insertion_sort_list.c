@@ -25,7 +25,7 @@ void insertion_sort_list(listint_t **list)
 				*list = tmp;
 			print_list(*list);
 			/* Go Left */
-			while ((tmp->prev)->n > (tmp)->n && tmp->prev)
+			while (tmp->prev && (tmp->prev)->n > (tmp)->n)
 			{
 				change_pos(tmp->prev, tmp);
 				/* If we setting a value at the start */
